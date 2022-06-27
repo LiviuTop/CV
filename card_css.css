@@ -1,0 +1,216 @@
+
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
+
+.header:hover {
+  color: blueviolet;
+}
+
+.container img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin: 100px;
+  padding: 25px;
+  display: flex;
+}
+
+.info-text {
+  padding-left: 30px;
+}
+
+@media (max-width: 684px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.card-1 {
+  margin: 100px;
+  margin-bottom: 100px;
+  border: 2px solid black;
+  border-radius: 25px;
+  background: red;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.card-1 h1 {
+  text-align: center;
+  color: black;
+}
+
+.card-1 ul {
+  text-align: center;
+  
+}
+
+.card-1:hover {
+  background-color: crimson;
+}
+
+.card-1 li {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 15px;
+  list-style: none;
+}
+
+.card-1 li:hover {
+  color: black;
+}
+
+.card-2 {
+  margin: 100px;
+  margin-bottom: 100px;
+  border: 2px solid red;
+  border-radius: 25px;
+  background: black;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.card-2 h1 {
+  text-align: center;
+  font-size: 55px;
+}
+
+.card-2:hover {
+  background-color: yellowgreen;
+}
+
+.card-2 table {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
+.card-2 td {
+  color: red;
+}
+
+.card-2 td:hover {
+  color: white;
+}
+
+
+@media (max-width: 1212px) {
+  .card-2 {
+    text-align: center;
+  }
+}
+
+.card-3 {
+  margin: 100px;
+  margin-bottom: 100px;
+  border: 2px solid red;
+  border-radius: 25px;
+  background: purple;
+  color: white;
+  padding: 10px;
+}
+
+.card-3 h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-3 table {
+  width: 100%;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.card-3:hover {
+  background-color: aqua;
+}
+
+.card-3 table th {
+  border-bottom: 5px solid grey;
+  padding-bottom: 15px;
+}
+
+.card-3 table tbody {
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+.card-3 table tbody td a {
+  
+  color: black;
+}
+
+.card-3 table tbody td a:hover {
+  color: red;
+}
+
+.card-4 {
+  background: gold;
+  border-radius: 25px;
+  margin: 100px;
+}
+
+.card-4 h1 {
+  text-align: center;
+}
+
+.btn-row {
+  text-align: center;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  
+}
+
+.telegram {
+  list-style: none;
+  background:  rgb(204, 20, 20);
+  font-size: 30px;
+  width: 20%;
+  border-radius: 15px;
+}
+.insta {
+  background: red;
+  font-size: 30px;
+  width: 20%;
+  border-radius: 15px;
+}
+
+.git {
+  background: rgb(204, 20, 20);
+  font-size: 30px;
+  width: 20%;
+  border-radius: 15px;
+}
+
+.telegram:hover {
+  background-color: yellow;
+}
+.insta:hover {
+  background-color: yellow;
+}
+.git:hover {
+  background-color: yellow;
+}
+
+
+@media (max-width: 900px) {
+  .btn-row {
+    display: block;
+  }
+}
+
